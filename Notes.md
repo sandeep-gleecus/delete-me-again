@@ -57,4 +57,13 @@ writeup focussing on how data is transferred across the different applications.
 Also consider explaining how the security aspect ios factored in. In case we are
 sure of any changes that might add value, include them.
 
+## Part 3
+
+The write-up based on the business problem comes here. Do an internet search, find
+few quality write-ups, and extract a summary from them covering the most
+important topics.
+
+# Part 4
+
+To be continued.
 
