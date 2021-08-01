@@ -12,10 +12,9 @@ the frontend.
 - There are a couple of repos that serve just as documentation for the devs who 
 wish to contribute.
 - The predominant tech stack is Angular for the frontend applications 
-and NodeJS for the backend applications.
+and NodeJS for the backend applications, typically built over MEAN stack.
 - Containerization and Orchestration is taken care by the 
-[Openshift](https://www.redhat.com/en/technologies/cloud-computing/openshift) platform. 
- 
+[Openshift](https://www.redhat.com/en/technologies/cloud-computing/openshift) platform.
 - Eagle is the revised name for the EAO EPIC application suite.
 
 Coming to the question of who has led the technical vision on the set of given
@@ -45,9 +44,17 @@ common pitfalls other than highlighting SOA vs Microservices debate. You can fin
 some [here](https://dzone.com/articles/microservices-vs-soa-is-there-any-difference-at-al)
 and [here](https://www.ibm.com/cloud/blog/soa-vs-microservices). 
 
+## Part 2
 
+Here is the logical diagram of the 3 applications mentioned in Part 2.
 
+![Logical diagram](images/logical-diagram.png)
 
-
+The datacenter, considered to be on-premise has multiple application suites
+deployed across different networks on the same center giving them enough 
+abstraction from each other. Do some research and complete the rest of the 
+writeup focussing on how data is transferred across the different applications.
+Also consider explaining how the security aspect ios factored in. In case we are
+sure of any changes that might add value, include them.
 
 
