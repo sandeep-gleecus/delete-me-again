@@ -46,7 +46,7 @@ and [here](https://www.ibm.com/cloud/blog/soa-vs-microservices).
 
 ## Part 2
 
-Here is the logical diagram of the 3 applications mentioned in Part 2.
+Here is an over-simplified tentative logical diagram of the 3 applications mentioned in Part 2.
 
 ![Logical diagram](images/logical-diagram.png)
 
@@ -54,7 +54,7 @@ The datacenter, considered to be on-premise has multiple application suites
 deployed across different networks on the same center giving them enough 
 abstraction from each other. Do some research and complete the rest of the 
 writeup focussing on how data is transferred across the different applications.
-Also consider explaining how the security aspect ios factored in. In case we are
+Also consider explaining how the security aspect is factored in. In case we are
 sure of any changes that might add value, include them.
 
 ## Part 3
@@ -65,5 +65,11 @@ important topics.
 
 # Part 4
 
-To be continued.
+1. DevOps mindset according to me is making Infra and Operations management a first class citizen in the Software development and release plans by all the stakeholders.  
+2. The biggest value add of Containerized environments is eliminating platform and dependency inconsistencies and thereby expediting quality software released to live environments. 
+3. This should help applications from different Govt. departments be deployed on relevant architectures and work cohesively and exchange data with security practices in place.    
+4. Yes in my opinion as with Agile development stakeholders can concentrate on iterative development of items in the utility column and factor in any course correction as needed. 
+5. Proper software architecture management is needed to ensure high quality outcome. Open source software architectures offers distinct benefits over homegrown or third party proprietary software such as good head start, cost savings, flexibility and technical innovation. Interoperability is the biggest advantage with open source frameworks. Scalability and migration paths are relatively easier too with open source architectures.  
+6. N/A
+7. As DevOps practice has gained ground, Software Architect role is no more fairly concentrated at the start of the development cycle. The Architect is supposed to work closely with the development teams in an Agile fashion to strategize and mitigate any risks to make the solution deployed with minimum to no downtime of the application suite. In a stark contrast, Architect is needed post deployment scenarios too to leverage the cloud deployment infrastructure and improvise on key parameters like response times, operational costs to name a few. 
 
